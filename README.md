@@ -32,11 +32,11 @@ The dataset presented in this work is contained in this repository in a compress
 
 ```bash
 cd data
-unzip sigma_dataset.npy.zip
+unzip sigma_pdm.npy.zip
 ```
 
 The file obtained after unpacking the zip file is a numpy binary format. The function to load this dataset is enclosed in `functions.py`.
-However, the dataset in time series `.ts` format is also included in `data/sigma_dataset.ts.zip`.
+However, the dataset in time series `.ts` format is also included in `data/sigma_pdm.ts.zip`.
 
 ### Running the experiments
 
