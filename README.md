@@ -50,7 +50,7 @@ python run.py
 ### BibTex
 ```bibtex
 @article{vargas2023hybrid,
-	title = {An ordinal CNN approach for the assessment of neurological damage in Parkinson’s disease patients},
+	title = {A hybrid feature learning approach based on convolutional kernels for ATM fault prediction using event-log data},
 	journal = {Engineering Applications of Artificial Intelligence},
 	year = {2023},
 	author = {Víctor Manuel Vargas and Riccardo Rosati and César Hervás-Martínez and Adriano Mancini and Luca Romeo and Pedro Antonio Gutiérrez}
