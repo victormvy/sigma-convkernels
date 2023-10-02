@@ -1,14 +1,8 @@
 import time
-import warnings
 from typing import cast
 
 import numpy as np
 import xgboost as xgb
-from dlmisc.metrics import (
-    minimum_sensitivity,
-    write_array_to_file,
-    write_metrics_dict_to_file,
-)
 from sacred import Experiment
 from scipy.stats import randint, uniform
 from sklearn.ensemble import RandomForestClassifier
@@ -27,8 +21,8 @@ from functions import (
     compute_regression_metrics,
     fix_seeds,
     load_sigma_dataset,
+    minimum_sensitivity,
     print_binary_metrics,
-    print_regression_metrics,
 )
 from hydra_minirocket_classifier import (
     HydraMultivariateClassifier,
